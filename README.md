@@ -1,4 +1,4 @@
-# Gem Wallet - Solana Mobile Publishing (Production Configuration)
+# Gem Wallet - Solana Mobile Publishing
 
 This document outlines the production configuration for **Gem Wallet** based on [Solana Mobile dApp Publishing](https://github.com/solana-mobile/dapp-publishing). al production setup.
 
