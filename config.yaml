@@ -1,0 +1,52 @@
+publisher:
+  name: Gem Wallet
+  address: 9VBrwzgUfykbmV2uo6C7MQc8A1byyCQvEYqUf6vNVhR6
+  website: https://gemwallet.com
+  email: support@gemwallet.com
+  media:
+    - purpose: icon
+      uri: ./media/app_icon.png
+app:
+  name: Gem - Crypto Wallet
+  address: 7j3RHZS3oX6KSg1TgiXf86uchisYMCymqb1Rpm9Ma8NW
+  android_package: com.gemwallet.android
+  urls:
+    license_url: https://github.com/gemwalletcom/gem-android
+    copyright_url: https://github.com/gemwalletcom/gem-android
+    privacy_policy_url: https://gemwallet.com/privacy/
+    website: https://gemwallet.com
+  media:
+    - purpose: icon
+      uri: ./media/app_icon.png
+release:
+  address: DwcCdzxsDZHeZs4Px6DhdjFYD6xzF3gdj8HshLQRbomY
+  media:
+    - purpose: icon
+      uri: ./media/app_icon.png
+    - purpose: screenshot
+      uri: ./media/screenshot_1.jpg
+    - purpose: screenshot
+      uri: ./media/screenshot_2.jpg
+    - purpose: screenshot
+      uri: ./media/screenshot_3.jpg
+    - purpose: screenshot
+      uri: ./media/screenshot_4.jpg
+  files:
+    - purpose: install
+      uri: ./files/app-release.apk
+  catalog:
+    en-US:
+      name: Gem - Crypto Wallet
+      short_description: Open Source Crypto Wallet.
+      long_description: Gem Wallet is a secure, self-custodial DeFi crypto wallet that prioritizes the utmost privacy of your sensitive information. With Gem Wallet, you retain full ownership of your cryptocurrencies and private keys. We deeply value your privacy, ensuring we don't track any personally identifiable information, wallet addresses, or asset balances.
+      new_in_version: New release.
+      saga_features: None yet.
+solana_mobile_dapp_publisher_portal:
+  google_store_package: com.gemwallet.android
+  testing_instructions: You can import or create a new wallet or use any solana address to test the app.
+lastSubmittedVersionOnChain:
+  address: DwcCdzxsDZHeZs4Px6DhdjFYD6xzF3gdj8HshLQRbomY
+  version_code: 426
+  apk_hash: uC6alOoxA8egrEFZ+AGxJOWIi8MI8PNr0gQ++gbESCo=
+lastUpdatedVersionOnStore:
+  address: DwcCdzxsDZHeZs4Px6DhdjFYD6xzF3gdj8HshLQRbomY

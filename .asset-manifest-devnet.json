@@ -1,0 +1,9 @@
+{
+  "assets": {
+    "./media/app_icon.png": {
+      "path": "./media/app_icon.png",
+      "sha256": "aSHJfqpYjXKBC8h8v00cA03OQL0cudJ5K5W3DBlyZTc=",
+      "uri": "https://arweave.net/tdXh9ueTlEtb4V15PSKxDYO3EzPJ8aUkSk9ceYRoybw"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "assets": {
+    "./media/app_icon.png": {
+      "path": "./media/app_icon.png",
+      "sha256": "aSHJfqpYjXKBC8h8v00cA03OQL0cudJ5K5W3DBlyZTc=",
+      "uri": "https://arweave.net/vDE_12jUBtEhKD2lc9vduCk9ZFzWNKKbrtUCUmFIP30"
+    },
+    "./media/screenshot_2.jpg": {
+      "path": "./media/screenshot_2.jpg",
+      "sha256": "swvhI90D6zXUFnqrJFzihwl5w3wUlCrxGIXtlRQII9w=",
+      "uri": "https://arweave.net/JcKnUf7cxvp8Oa6Py3tV9fNLtGNSh9K8Rbs_JuJHH14"
+    },
+    "./media/screenshot_1.jpg": {
+      "path": "./media/screenshot_1.jpg",
+      "sha256": "NTwo51wLHcPvvVGTDefKi/dOCu+Ar6k6KktwlYBvcxU=",
+      "uri": "https://arweave.net/TmTDFgb9_i-JWQkHFug-4Qm91P1Eso3ENnTuvP8Ob3c"
+    },
+    "./media/screenshot_4.jpg": {
+      "path": "./media/screenshot_4.jpg",
+      "sha256": "x+1kzNtQdc329iN5FB1pZOyvYDZdJ2cGTrGLXQ3Wdy4=",
+      "uri": "https://arweave.net/mIUaihSsSW3UTy2rKBGSQTQ1wwCevgR4YOF3QryaYXk"
+    },
+    "./media/screenshot_3.jpg": {
+      "path": "./media/screenshot_3.jpg",
+      "sha256": "7tbxujSQPp0UCuuCK8v4ze1x3+K2g4hjl+LmGO6IzRw=",
+      "uri": "https://arweave.net/WX3tsoNArFlN1YSLmpknRnilLAkm7ir6suT9B2rh9l4"
+    },
+    "./files/app-release.apk": {
+      "path": "./files/app-release.apk",
+      "sha256": "uC6alOoxA8egrEFZ+AGxJOWIi8MI8PNr0gQ++gbESCo=",
+      "uri": "https://arweave.net/Otzmaeqjjb2mq2f6l23kG1HwkKCS6fGZtSeAouiULUY"
+    }
+  }
+}
