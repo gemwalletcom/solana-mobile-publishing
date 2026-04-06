@@ -1,26 +1,12 @@
-# https://docs.solanamobile.com/dapp-publishing/publishing_releases
+# https://docs.solanamobile.com/dapp-store/publishing-cli
 
-NODE_URL := "solana config set --url https://api.mainnet-beta.solana.com"
+RPC_URL := "https://api.mainnet-beta.solana.com"
 KEYPAIR := "solana-wallet/keypair.json"
-SDK_PATH := "~/Library/Android/sdk/build-tools/36.0.0"
+APK_FILE := "files/app-release.apk"
+WHATS_NEW := "New release."
 
 install:
-    pnpm install
-
-validate:
-    npx dapp-store validate -k {{KEYPAIR}} -b {{SDK_PATH}}
-
-publish:
-    npx dapp-store publish -k {{KEYPAIR}} -b {{SDK_PATH}}
-
-create_publisher:
-    npx dapp-store create publisher -k {{KEYPAIR}} -u {{NODE_URL}}
-
-create_app:
-    npx dapp-store create app -k {{KEYPAIR}} -u {{NODE_URL}}
+    pnpm install --frozen-lockfile
 
 create_app_release:
-    npx dapp-store create release -k {{KEYPAIR}} -b {{SDK_PATH}} -u {{NODE_URL}}
-
-publish_app_release:
-    npx dapp-store publish submit -k {{KEYPAIR}} -u {{NODE_URL}} --requestor-is-authorized --complies-with-solana-dapp-store-policies
+    pnpm exec dapp-store --api-key-env DAPP_STORE_API_KEY --apk-file "${APK_FILE:-{{APK_FILE}}}" --whats-new "${WHATS_NEW:-{{WHATS_NEW}}}" --keypair "${KEYPAIR:-{{KEYPAIR}}}" --rpc-url "${RPC_URL:-{{RPC_URL}}}"

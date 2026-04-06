@@ -1,8 +1,14 @@
 # Gem Wallet - Solana Mobile Publishing
 
-This document outlines the production configuration for **Gem Wallet** based on [Solana Mobile dApp Publishing](https://github.com/solana-mobile/dapp-publishing). al production setup.
+```sh
+pnpm install --frozen-lockfile
 
-## Prerequisites
+export DAPP_STORE_API_KEY=...
+just create_app_release
 
-- **Keypair Location**: Include `/solana-wallet/keypair.json` that's used for signing application.
-- **APK Location**: Latest build should be under `files/app-release.apk`
+# optional overrides
+APK_FILE=/absolute/path/app-release.apk \
+KEYPAIR=/absolute/path/keypair.json \
+WHATS_NEW="Bug fixes" \
+just create_app_release
+```
