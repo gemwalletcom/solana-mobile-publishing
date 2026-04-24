@@ -12,8 +12,8 @@ app:
   address: 7j3RHZS3oX6KSg1TgiXf86uchisYMCymqb1Rpm9Ma8NW
   android_package: com.gemwallet.android
   urls:
-    license_url: https://github.com/gemwalletcom/gem-android
-    copyright_url: https://github.com/gemwalletcom/gem-android
+    license_url: https://gemwallet.com/terms/
+    copyright_url: https://github.com/gemwalletcom/wallet
     privacy_policy_url: https://gemwallet.com/privacy/
     website: https://gemwallet.com
   media:
